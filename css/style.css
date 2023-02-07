@@ -200,6 +200,7 @@ h6 {
 
 .borderFooter {
     border-bottom: 1px solid var(--footerTitle);
+    padding-bottom: 2rem;
 }
 
 .leftBox {
