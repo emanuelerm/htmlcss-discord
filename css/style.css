@@ -87,6 +87,14 @@ nav {
     text-decoration: none;
 }
 
+.bgNavButton {
+    color: var(--navDarkText);
+    font-weight: 600;
+    background-color: var(--bgNavButton);
+    border-radius: 30px;
+    padding: 0.2rem 0.4rem;
+}
+
 .bgHeaderButton {
     color: var(--navDarkText);
     font-weight: 600;
@@ -231,4 +239,19 @@ h6 {
 
 .wave {
     transform: rotate(360deg);
+}
+
+.whiteHover:hover {
+    color: var(--bgNav);
+    box-shadow: 0 0.3rem 20px black;
+}
+
+.darkHover:hover {
+    background-color: rgb(66, 77, 88);
+    box-shadow: 0 0.3rem 20px black;
+}
+
+.purpleHover:hover {
+    background-color:  #8fa5f7;
+    box-shadow: 0 0.3rem 20px black;   
 }
